@@ -1,27 +1,152 @@
 const generatedBibEntries = {
-    "Beck2016Visual": {
-        "abstract": "Bibiographic data such as collections of scientific articles and citation networks have been studied extensively in information visualization and visual analytics research. Powerful systems have been built to support various types of bibliographic analysis, but they require some training and cannot be used to disseminate the insights gained. In contrast, we focused on developing a more accessible visual analytics system, called SurVis, that is ready to disseminate a carefully surveyed literature collection. The authors of a survey may use our Web-based system to structure and analyze their literature database. Later, readers of the survey can obtain an overview, quickly retrieve specific publications, and reproduce or extend the original bibliographic analysis. Our system employs a set of selectors that enable users to filter and browse the literature collection as well as to control interactive visualizations. The versatile selector concept includes selectors for textual search, filtering by keywords and meta-information, selection and clustering of similar publications, and following citation links. Agreement to the selector is represented by word-sized sparkline visualizations seamlessly integrated into the user interface. Based on an analysis of the analytical reasoning process, we derived requirements for the system. We developed the system in a formative way involving other researchers writing literature surveys. A questionnaire study with 14 visual analytics experts confirms that SurVis meets the initially formulated requirements.",
-        "author": "Beck, Fabian and Koch, Sebastian and Weiskopf, Daniel",
-        "doi": "10.1109/TVCG.2015.2467757",
+    "Tosi2024BigDataReview": {
+        "abstract": "This paper presents a systematic literature review of 15 years of big data research, covering methods, tools, and application domains. It identifies key trends and discusses future challenges in managing and analyzing large-scale heterogeneous data.",
+        "author": "Tosi, Davide and Kokaj, Redon and Roccetti, Marco",
+        "doi": "10.1186/s40537-024-00914-9",
+        "journal": "Journal of Big Data",
+        "keywords": "type:review, big_data, data_trends, literature_survey",
+        "number": "",
+        "publisher": "Springer",
+        "series": "",
+        "title": "15 Years of Big Data: A Systematic Literature Review",
+        "type": "article",
+        "url": "https://doi.org/10.1186/s40537-024-00914-9",
+        "volume": "",
+        "year": "2024"
+    },
+    "Rahm2017DataCleaning": {
+        "abstract": "The article provides a foundational overview of data cleaning challenges and techniques including duplicate detection, schema mapping, and error correction. It remains a key reference for understanding traditional data quality concerns.",
+        "author": "Rahm, Erhard and Do, Hong Hai",
+        "doi": "10.1109/TBDATA.2017.2757942",
+        "journal": "IEEE Transactions on Big Data",
+        "keywords": "type:survey, data_cleaning, data_quality, schema_mapping",
+        "number": "",
+        "publisher": "IEEE",
+        "series": "",
+        "title": "Data Cleaning: Overview and Emerging Challenges",
+        "type": "article",
+        "url": "https://doi.org/10.1109/TBDATA.2017.2757942",
+        "volume": "",
+        "year": "2017"
+    },
+    "Zhang2022SupplyChainAnalytics": {
+        "abstract": "This review paper explores how data analytics is applied in supply chain and operations management. It highlights the role of visualization and predictive analytics in enhancing decision support.",
+        "author": "Zhang, Y. and others",
+        "doi": "10.1016/j.jclepro.2022.131439",
+        "journal": "Journal of Cleaner Production",
+        "keywords": "type:review, supply_chain, decision_support, analytics",
+        "number": "",
+        "publisher": "Elsevier",
+        "series": "",
+        "title": "A Review of Data Analytics in Operations and Supply Chain Management",
+        "type": "article",
+        "url": "https://doi.org/10.1016/j.jclepro.2022.131439",
+        "volume": "",
+        "year": "2022"
+    },
+    "Wang2024SmartTourism": {
+        "abstract": "A bibliometric visual analysis of big data use in smart tourism, showing key research clusters and temporal trends using co-citation and keyword-based mapping.",
+        "author": "Wang, Z. and others",
+        "doi": "10.1080/10941665.2024.2398699",
+        "journal": "Asia Pacific Journal of Tourism Research",
+        "keywords": "type:visual_analysis, tourism, bibliometrics, big_data",
+        "number": "",
+        "publisher": "Taylor & Francis",
+        "series": "",
+        "title": "A Bibliometric and Visual Analysis of Big Data in Smart Tourism",
+        "type": "article",
+        "url": "https://doi.org/10.1080/10941665.2024.2398699",
+        "volume": "",
+        "year": "2024"
+    },
+    "Ali2024ScalablePreprocessing": {
+        "abstract": "Proposes a scalable architecture for big data preprocessing, leveraging intelligent agents for real-time cleaning, standardization, and error detection in data streams.",
+        "author": "Ali, Muhammad and others",
+        "doi": "10.1007/s10515-024-00453-w",
+        "journal": "Automated Software Engineering",
+        "keywords": "type:architecture, data_cleaning, preprocessing, automation",
+        "number": "",
+        "publisher": "Springer",
+        "series": "",
+        "title": "Scalable Intelligent Data Preprocessing Architecture for Big Data",
+        "type": "article",
+        "url": "https://doi.org/10.1007/s10515-024-00453-w",
+        "volume": "",
+        "year": "2024"
+    },
+    "Gupta2022EnergyForecasting": {
+        "abstract": "Presents a forecasting and energy management system for smart microgrids, starting with cleaning and imputation of time series sensor data before applying machine learning models.",
+        "author": "Gupta, A. and others",
+        "doi": "10.1016/j.apenergy.2022.119292",
+        "journal": "Applied Energy",
+        "keywords": "type:application, energy_forecasting, imputation, smart_grid",
+        "number": "",
+        "publisher": "Elsevier",
+        "series": "",
+        "title": "A Data-Driven Framework for Load Forecasting and Energy Management in Smart Microgrids",
+        "type": "article",
+        "url": "https://doi.org/10.1016/j.apenergy.2022.119292",
+        "volume": "",
+        "year": "2022"
+    },
+    "Recker2021BusinessProcessAnalytics": {
+        "abstract": "This paper reviews business process analytics, focusing on data preparation, transformation, and trace cleaning techniques for enterprise workflow analysis.",
+        "author": "Recker, Jan and others",
+        "doi": "10.1108/BPMJ-11-2020-0527",
+        "journal": "Business Process Management Journal",
+        "keywords": "type:review, business_process, transformation, workflow",
+        "number": "",
+        "publisher": "Emerald",
+        "series": "",
+        "title": "Business Process Analytics: Literature Review and Future Research Agenda",
+        "type": "article",
+        "url": "https://doi.org/10.1108/BPMJ-11-2020-0527",
+        "volume": "",
+        "year": "2021"
+    },
+    "Khan2021HealthcareAnalytics": {
+        "abstract": "Surveys challenges and opportunities of applying big data analytics in healthcare, including interoperability, privacy, and data preprocessing demands.",
+        "author": "Khan, M.A. and others",
+        "doi": "10.1155/2021/9996011",
+        "journal": "Journal of Healthcare Engineering",
+        "keywords": "type:survey, healthcare, big_data, privacy, preprocessing",
+        "number": "",
+        "publisher": "Hindawi",
+        "series": "",
+        "title": "A Survey on Big Data Analytics in Healthcare: Challenges and Applications",
+        "type": "article",
+        "url": "https://doi.org/10.1155/2021/9996011",
+        "volume": "",
+        "year": "2021"
+    },
+    "Xie2019SpatioTemporalVA": {
+        "abstract": "Describes a visual analytics framework for exploring spatiotemporal datasets with interactive techniques for clustering, filtering, and timeline visualization.",
+        "author": "Xie, S. and others",
+        "doi": "10.1109/TVCG.2019.2934629",
         "journal": "IEEE Transactions on Visualization and Computer Graphics",
-        "keywords": "type:system, visual_analytics, sparklines, information_retrieval, clustering, literature_browser",
-        "number": "01",
+        "keywords": "type:framework, visual_analytics, spatiotemporal_data, interaction",
+        "number": "",
         "publisher": "IEEE",
         "series": "TVCG",
-        "title": "Visual Analysis and Dissemination of Scientific Literature Collections with {SurVis}",
+        "title": "Data-Driven Visual Analytics for Complex Spatio-Temporal Data",
         "type": "article",
-        "url": "http://www.visus.uni-stuttgart.de/uploads/tx_vispublications/vast15-survis.pdf",
-        "volume": "22",
-        "year": "2016"
+        "url": "https://doi.org/10.1109/TVCG.2019.2934629",
+        "volume": "",
+        "year": "2019"
     },
-{
-
-
-
-// 们要添加的论文
-
-}
-
-
+    "Ullah2022DataQualitySurvey": {
+        "abstract": "Surveys techniques for quality assessment of big data, proposing frameworks and criteria to assess accuracy, consistency, and completeness.",
+        "author": "Ullah, Asad and others",
+        "doi": "10.1002/widm.1427",
+        "journal": "Wiley Interdisciplinary Reviews: Data Mining and Knowledge Discovery",
+        "keywords": "type:survey, data_quality, assessment, big_data",
+        "number": "",
+        "publisher": "Wiley",
+        "series": "",
+        "title": "A Survey of Challenges and Methods for Quality Assessment of Big Data",
+        "type": "article",
+        "url": "https://doi.org/10.1002/widm.1427",
+        "volume": "",
+        "year": "2022"
+    }
 };
-
